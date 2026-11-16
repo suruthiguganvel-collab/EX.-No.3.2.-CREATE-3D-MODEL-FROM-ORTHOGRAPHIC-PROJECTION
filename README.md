@@ -1,3 +1,4 @@
+
 # EX No.3.2. CREATE 3D MODEL FROM ORTHOGRAPHIC PROJECTION
 ## DATE:3/11/2026
 ## AIM:
@@ -17,53 +18,79 @@ High-performance memory capacity required to handle complex 3D graphics and rend
 4. Internet Connection:
    A stable broadband connection with a download speed of 2.5 Mbps or faster, and an upload speed of 500 Kbps or faster to support cloud saving and workspace syncing.
 
-## PROCEDURE:
-1.	Open New File and Select Sketch Icon:
-Launch Autodesk Fusion 360 and create a new design workspace.  
-Navigate to the top toolbar and click on the 'Create Sketch' icon to begin the 2D drawing process.
-2.	Select the Plane for Sketching:
-Choose an appropriate reference plane (such as the XY, YZ, or XZ plane) on the Cartesian coordinate system based on the orientation of the orthographic views you are modeling.
-3.	Use Sketching Features:
-Utilize fundamental sketching tools—including lines, circles, arcs, rectangles, and polygons—to accurately draw the primary 2D profile matching the dimensions and features of the given blueprint.
-4.Use Sketch Modifying Features:
-Clean up and refine the drawing by using modification features such as cut, trim, mirror, and move.  
-Trim eliminates unwanted intersecting lines, while mirror and move help align and duplicate symmetric components accurately according to engineering specifications.
+## REQUIREMENT/TOOLS NEEDED
+The following drawing instruments and materials are required:  
+1. Drawing Sheet: To draw the orthographic views of the given component.  
+2. Drawing Board: To provide a flat and stable surface for drawing.  
+3. Mini Drafter / T-Square: To draw horizontal and vertical lines accurately.  
+4. Set Squares: To draw perpendicular and inclined lines.  
+5. Scale: To measure and mark the given dimensions.  
+6. Compass: To draw circular and semicircular portions.  
+7. Divider: To transfer measurements accurately.  
+8. Pencil (2H/HB): To draw construction lines and object outlines.  
+9. Eraser: To remove unwanted construction lines.  
+10. French Curve: To draw smooth curved portions wherever required.
 
-<img width="610" height="626" alt="Screenshot 2026-11-06 105035" src="https://github.com/user-attachments/assets/5770154d-3019-4b24-80ad-b7cc4fcac65d" />
+Given Dimensions
+The important dimensions taken from the given engineering drawing are:  
+Overall length: 420\text{ mm}  
+Overall width: 150\text{ mm}  
+Overall height: 110\text{ mm}  
+Base thickness: 30\text{ mm}  
+Radius of curved portion: \text{R}110\text{ mm}  
+Radius of rounded ends: \text{R}60\text{ mm}  
+Distance between end-hole centres: 300\text{ mm}  
+Distance between centre and end-holeCentre: 150\text{ mm}  
+Diameter of end holes: \varnothing40\text{ mm}  
+Diameter of centre hole: \varnothing20\text{ mm}  
+Width of central opening: 120\text{ mm}  
+Height indicated in side view: 60\text{ mm}
 
-5.Use Inspect Feature to Measure Dimensions:
-Activate the Inspect tool to carefully measure and verify all lengths, radii, and spacing within the sketch.  
-This critical step ensures total geometric accuracy before translating the profile into a 3D model.
-Finish the Sketch:
-Once the 2D profile is fully constrained and verified, click the 'Finish Sketch' button to exit the 2D sketching environment and return to the solid modeling workspace.
+## PROCEDURE
+Step 1: Study the given drawing
+First, carefully observe the given engineering drawing.  
+Identify the three views: Top View, Front View and Side View.  
+Note all the dimensions, circular portions, holes and curved surfaces.  
+Select a suitable scale according to the drawing sheet.
 
-![image](https://user-images.githubusercontent.com/113594316/198823390-0832a221-257e-439f-99b4-1a8beca74b56.png)
+Step 2: Draw the Front View
+Draw a horizontal reference line for the front view.  
+Mark the overall length of 420\text{ mm} using the given scale.  
+Draw the base portion with a thickness of 30\text{ mm}.  
+Mark the centre of the object and draw a vertical centre line.  
+Construct the semicircular upper portion using a radius of 110\text{ mm}.  
+Draw the central rectangular opening with a width of 120\text{ mm}.  
+Complete the front view by drawing the visible outlines.  
+Draw the centre lines and hidden lines wherever necessary.
+<img width="953" height="700" alt="Screenshot 2026-11-15 210525" src="https://github.com/user-attachments/assets/73ea5c22-9ccd-4db8-ba7b-b28127008b39" />
 
-6. After finishing the sketch use finish sketch option to finalize the sketch.  
-Detailed Explanation:
-Exiting 2D Mode: Once you have completed drawing the entire 2D profile, applied all required dimensions, and verified the geometry, you click the 'Finish Sketch' icon located on the top-right corner of the toolbar.  
-Locking the Profile: This action completes and locks the active 2D sketching environment, preventing any accidental changes to your sketch geometry.  
-Preparing for 3D Modeling: Finishing the sketch transitions Autodesk Fusion 360 back into the 3D Solid workspace, enabling all 3D features—such as Extrude, Revolve, and Sweep—so you can convert the 2D sketch into a 3D solid object.
+Step 3: Draw the Top View
+Draw the Top View above the Front View according to the given arrangement.  
+Project the necessary vertical lines from the Front View.  
+Mark the overall width of 150\text{ mm}.  
+Draw the rounded ends using a radius of 60\text{ mm}.  
+Mark the two end-hole centres with a distance of 300\text{ mm} between them.  
+Draw the two circular holes with a diameter of 40\text{ mm}.  
+Mark the central hole and draw it with a diameter of 20\text{ mm}.  
+Draw the remaining rectangular portions and hidden edges as shown in the figure.
+<img width="1135" height="683" alt="Screenshot 2026-11-15 210610" src="https://github.com/user-attachments/assets/27eede30-d779-4e1e-b4bd-f8cdc57f2c1a" />
 
-![image](https://user-images.githubusercontent.com/113594316/198823401-1b79c82e-7665-4874-8135-52cbce3bb50d.png)
+Step 4: Draw the Side View
+Draw the Side View on the right side of the Front View.  
+Project the required horizontal lines from the Front View.  
+Mark the overall width as 150\text{ mm}.  
+Mark the overall height as 110\text{ mm}.  
+Draw the rectangular outer boundary.  
+Construct the internal rectangular portion according to the given dimensions.  
+Mark the 60\text{ mm} height and draw the hidden lines and centre lines.
 
-7. Use extrude option to convert 3D model from sketch  
-Detailed Explanation:
-Selecting the Tool: Choose the Extrude tool from the Solid modeling toolbar tab in Autodesk Fusion 360.  
-Selecting the Profile: Click on the closed 2D profile area that you designed and finalized during the sketching phase.  
-Specifying Depth/Height: Enter the exact thickness, height, or extrusion depth value as specified in the original orthographic blueprint.  
-Generating the Solid: Click OK to pull and convert the flat 2D profile into a complete 3D solid model object.
-
-![image](https://user-images.githubusercontent.com/113594316/198823408-d3d678f1-2247-41a2-abdd-b9a8918daef8.png)
-
-
-8.After finishing the model convert to drawing sheet per ISO standard.  
-Detailed Explanation:
-Creating Documentation: Once the 3D modeling process is fully completed, navigate to the workspace options to generate a standard 2D technical drawing sheet directly from the model.  
-ISO Standards Compliance: The layout automatically arranges standard orthographic views (such as front, top, and side views) complete with dimensional annotations formatted strictly according to ISO standards.  
-Manufacturing Readiness: This step prepares the final documentation required for industrial fabrication, review, and professional reporting.
-
-![image](https://user-images.githubusercontent.com/113594316/198823415-9d0a9454-b197-44bf-b90f-179c75602500.png)
+Step 5: Finishing the Drawing
+Darken all the visible object outlines.  
+Draw hidden edges using dashed lines.  
+Draw centre lines using thin chain lines.  
+Add all the necessary dimensions and arrows.  
+Erase unwanted construction lines.  
+Check the alignment and accuracy of all three views.
 
 ## INPUT:
 ![image](https://user-images.githubusercontent.com/113594316/198823540-38a1b79a-1f68-4876-add9-adf59b98b386.png)
