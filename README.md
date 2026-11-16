@@ -84,6 +84,8 @@ Draw the rectangular outer boundary.
 Construct the internal rectangular portion according to the given dimensions.  
 Mark the 60\text{ mm} height and draw the hidden lines and centre lines.
 
+<img width="1042" height="555" alt="image" src="https://github.com/user-attachments/assets/632afdf5-46e1-464a-8b40-f9430c47fdde" />
+
 Step 5: Finishing the Drawing
 Darken all the visible object outlines.  
 Draw hidden edges using dashed lines.  
@@ -92,16 +94,22 @@ Add all the necessary dimensions and arrows.
 Erase unwanted construction lines.  
 Check the alignment and accuracy of all three views.
 
+
 ## INPUT:
 ![image](https://user-images.githubusercontent.com/113594316/198823540-38a1b79a-1f68-4876-add9-adf59b98b386.png)
 
 ## OUTPUT:
+
+<img width="472" height="292" alt="WhatsApp Image 2026-11-16 at 6 22 50 PM" src="https://github.com/user-attachments/assets/53885920-5894-42ef-b3c2-ea11a3b6466d" />
+
 <img width="1014" height="716" alt="Screenshot 2026-11-03 142820" src="https://github.com/user-attachments/assets/92902f07-6874-40c1-86b0-7ab6f7bad82c" />
 
 
 ## RESULT:
-Statement: Thus, the 3D model is created from orthographic projection.  
-Summary: The 2D drawings were successfully converted into an accurate, ISO-compliant 3D solid model in autodesk fusion 360.
+Thus, the 3D model is created from orthographic projection.
+This confirms that the 2D engineering drawings were successfully interpreted and transformed into a complete 3D solid model using the CAD tool.
+
+
 
 
 
